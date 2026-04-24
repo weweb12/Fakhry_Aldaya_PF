@@ -5,7 +5,7 @@ import { Film, ImageIcon, X } from "lucide-react";
 import { useState } from "react";
 
 import { MediaItem } from "@/content/projects";
-import { assetPath } from "@/lib/utils";
+import { cn, assetPath } from "@/lib/utils";
 
 export function MediaGallery({ items }: { items: MediaItem[] }) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -31,7 +31,7 @@ export function MediaGallery({ items }: { items: MediaItem[] }) {
                   <>
                     <Image
                       className="object-cover transition-transform duration-700 hover:scale-[1.03]"
-                      src={item.src}
+                      src={assetPath(item.src!)}
                       alt={item.title}
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
@@ -79,7 +79,7 @@ export function MediaGallery({ items }: { items: MediaItem[] }) {
             <X className="h-6 w-6" />
           </button>
           <div className="relative h-[90vh] w-[95vw] max-w-7xl animate-fade-in-up [animation-duration:300ms]">
-            <Image src={selectedImage} alt="Fullscreen preview" fill className="object-contain" />
+            <Image src={assetPath(selectedImage)} alt="Fullscreen preview" fill className="object-contain" />
           </div>
         </div>
       )}

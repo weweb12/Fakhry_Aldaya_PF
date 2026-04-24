@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { ChevronLeft, ChevronRight, Smartphone } from "lucide-react";
 import { useState, useEffect } from "react";
-import { cn } from "@/lib/utils";
+import { cn, assetPath } from "@/lib/utils";
 import { MediaItem } from "@/content/projects";
 
 /**
@@ -65,7 +65,7 @@ export function MobileDeck({ items }: { items: MediaItem[] }) {
                 
                 <div className="relative aspect-[9/19.5] w-full">
                   <Image
-                    src={item.src || ""}
+                    src={assetPath(item.src || "")}
                     alt={item.caption || "App Screenshot"}
                     fill
                     className="object-cover"

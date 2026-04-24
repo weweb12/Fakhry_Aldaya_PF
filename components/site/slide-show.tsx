@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect } from "react";
-import { cn } from "@/lib/utils";
+import { cn, assetPath } from "@/lib/utils";
 import { MediaItem } from "@/content/projects";
 
 export function SlideShow({ items }: { items: MediaItem[] }) {
@@ -44,7 +44,7 @@ export function SlideShow({ items }: { items: MediaItem[] }) {
             >
               {item.src && (
                 <Image
-                  src={item.src}
+                  src={assetPath(item.src!)}
                   alt={item.title}
                   fill
                   className="object-contain"
