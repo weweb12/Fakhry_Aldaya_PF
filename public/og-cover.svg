@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#f2f2ef"/>
+  <rect x="48" y="48" width="1104" height="534" rx="40" fill="#ffffff" fill-opacity=".76" stroke="#c7ced8" stroke-opacity=".65"/>
+  <g opacity=".65">
+    <path d="M96 124h1008" stroke="#bbc3cf" stroke-opacity=".35"/>
+    <path d="M96 202h1008" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M96 280h1008" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M96 358h1008" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M96 436h1008" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M96 514h1008" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M184 96v438" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M334 96v438" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M484 96v438" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M634 96v438" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M784 96v438" stroke="#bbc3cf" stroke-opacity=".18"/>
+    <path d="M934 96v438" stroke="#bbc3cf" stroke-opacity=".18"/>
+  </g>
+  <rect x="96" y="96" width="300" height="136" rx="28" fill="#181b1f"/>
+  <text x="128" y="152" fill="#f2f2ef" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="5">FAKHRY ALDAYA</text>
+  <text x="128" y="196" fill="#b7bec9" font-family="Segoe UI, Arial, sans-serif" font-size="20">Secure systems • automation • product-minded builds</text>
+  <text x="96" y="320" fill="#181b1f" font-family="Georgia, serif" font-size="58" font-weight="700">
+    I build practical software systems that
+  </text>
+  <text x="96" y="388" fill="#181b1f" font-family="Georgia, serif" font-size="58" font-weight="700">
+    make complex workflows clearer and safer.
+  </text>
+  <rect x="96" y="446" width="230" height="56" rx="28" fill="#d8dde5"/>
+  <text x="132" y="480" fill="#181b1f" font-family="Segoe UI, Arial, sans-serif" font-size="22">Projects • Case studies</text>
+</svg>
